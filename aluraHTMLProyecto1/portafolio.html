@@ -1,0 +1,82 @@
+<!-- <DOCTYPE html> | Hace que sea compatible con todos los navegadores -->
+<!DOCTYPE html>
+
+<!-- lang = ' ' | Lenguaje -->
+<html lang="es">
+
+<head>
+    <!-- <meta charset = 'UTF-8'> | Poder escribir con caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- Sirve para optimizar los sitios para móviles, esta etiqueta ayuda a definir el ancho, 
+    alto y escala del área usada por el navegador para mostrar contenido.-->
+    <!-- Que mi pagina se adapte a la pantalla del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Portafolio</title>
+    <!-- rel = ' ' | Tipo de Archivo -->
+    <!-- href = ' ' | Lugar de referencia -->
+    <link rel = 'stylesheet' href='styles/style.css'>
+</head>
+
+<body>
+    
+    <!-- Encabezado de la Pagina -->
+    <header class = 'header'>
+        <!-- Navegar -->
+        <nav class = 'header__menu'>
+            <a class = 'header__menu__link' href = 'portafolio.html'>Home</a>
+            <a class = 'header__menu__link' href = 'about.html'>Sobre mí</a>
+        </nav>
+    </header>
+    
+    <!-- Cuerpo de la Pagina -->
+    <main class = 'presentacion'>
+        
+        <!-- Crea una box -->
+        <section class = 'presentacion__contenido'>
+            
+            <h1 class = 'presentacion__contenido__titulo'>Eleve tu negocio digital a otro nivel 
+                <!-- <strong> | Marcar en negritas -->
+                <!-- class = '' | Nombre de esta etiqueta -->
+                <strong class="titulo-destaque">con un Front-end de calidad!</strong>
+            </h1>
+            
+            <p class = 'presentacion__contenido__parrafo'>
+                ¡Hola! Soy Ana García desarrolladora Front-end con especializacion en React,
+                HTML y CSS. Ayudo en pequeños negocios y
+                diseñadores a llevar a cabo buenas ideas ¿Hablamos?
+            </p>
+
+            <!-- Crea una box -->
+            <div class = 'presentacion__enlace'>
+                <h2 class = 'presentacion__enlace__subtitulo'>Accede a mis Redes: </h2>
+                <!-- <a> | Es un boton que redirecciona hacia otro lugar (No guarda info) -->
+                <!-- href = ' ' | Enlace del lugar hacia donde llevara el boton -->
+                
+                <a class = 'presentacion__enlace__link' href='https://www.github.com/'>
+                    <img src = "imagenes/github.png">
+                    GitHub
+                </a>
+
+                <a class = 'presentacion__enlace__link' href='https://www.instagram.com/'>
+                    <img src = "imagenes/instagram.png">
+                    Instagram
+                </a>
+
+                <a class = 'presentacion__enlace__link' href = 'https//www.linkedin.com/'>
+                    <img src = 'imagenes/linkedin.png'>
+                    Linkedin
+                </a>
+            </div>
+
+        </section>
+        
+        <img class = 'presentacion__imagen' src = 'imagenes/Ana Garcia.png'>
+    </main>
+    
+    <!-- Pie de la Pagina -->
+    <footer class = 'footer'>
+        <p>Desarrollado por Alura Latam</p>
+    </footer>
+</body>
+
+</html>
